@@ -1,0 +1,23 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN" "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+  <interface name="local.IAppManagerUIControl">
+    <method name="registerUIControl">
+      <arg type="b" direction="out"/>
+      <arg name="appId" type="s" direction="in"/>
+      <arg name="objectName" type="s" direction="in"/>
+      <arg name="objectPath" type="s" direction="in"/>
+    </method>
+    <method name="unRegisterUIControl">
+      <arg type="b" direction="out"/>
+      <arg name="appId" type="s" direction="in"/>
+    </method>
+    <method name="requestShow">
+      <arg type="b" direction="out"/>
+      <arg name="appId" type="s" direction="in"/>
+    </method>
+    <method name="getAppVisible">
+      <arg type="b" direction="out"/>
+      <arg name="appId" type="s" direction="in"/>
+    </method>
+  </interface>
+</node>
