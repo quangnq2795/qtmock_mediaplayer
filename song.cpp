@@ -75,7 +75,7 @@ void Song::extractMetaData(const QString &filePath) {
     }
 
     if(m_path == ""){
-        m_path = QString("/home/Qt/mediaplayer/Image/Hoang_Hau.png");
+        m_path = QString("/home/quangnq/Qt/qtmock_mediaplayer/Image/mediawidget_defaultbg.jpg");
         m_image = QUrl::fromLocalFile(m_path);
     }
 }

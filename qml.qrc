@@ -33,5 +33,6 @@
         <file>Image/USB Mussic.png</file>
         <file>Image/back_button.png</file>
         <file>Image/back_button_hover.png</file>
+        <file>Image/mediawidget_defaultbg.jpg</file>
     </qresource>
 </RCC>
