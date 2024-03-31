@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
 
-    Player::getInstance().setWorkingDir("/home/Qt/mediaplayer/Music/");
+    Player::getInstance().setWorkingDir("/home/quangnq/Qt/qtmock_mediaplayer/Music/");
 
     AppUIControl uiControler;
 
